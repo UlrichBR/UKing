@@ -1,0 +1,26 @@
+items:
+  kitem:
+    material: 'SKULL_ITEM'
+    data: 3
+    amount: 1
+    slot: 0
+    slot_complete: ''
+    name: ' &bKItem'
+    click_cooldown: '5'
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
+    sound: ''
+    permission: ''
+    permission_message: ''
+    value: 100
+    left_commands:
+    - ''
+    right_commands:
+    - ''
+    lore:
+    - ''
+    - ' &eThis item is worth &6100 &6KCoins'
+    - ' &eClick this item to save to your account.'
+    enchants:
+    - 'PROTECTION_ENVIRONMENTAL;2'
+    flags:
+    - 'HIDE_ENCHANTS'

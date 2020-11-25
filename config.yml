@@ -1,0 +1,153 @@
+Config:
+  tag: '&6&lU&e&lKing &8>>&e'
+  debugmode: false
+  max_top_list: 10
+  open_gui_empty_command: true
+#
+#Placeholder with PlaceholderAPI:
+#
+# %uking_chattag%
+# %uking_tabtag%
+# %uking_kcoins%
+# %uking_isking%
+#
+King:
+  chat_tag: '&6&l[♛]'
+  tab_tag: '&6&l♛&r'
+  reset_at_day: 3
+  reset_fly_teleport: true
+  reset_fly_worldchange: true
+  reset_fly_join: true
+  new:
+    title:
+      enabled: true
+      title: '&7%new_tag%'
+      sub: '&eIs the new King!'
+    actionbar:
+      enabled: true
+      message: '&7%new_tag% &eIs the new King!'
+    broadcast:
+      enabled: true
+      message: '%tag% &7%new_tag% &eIs the new King!'
+  advantages:
+    fly_enabled: true
+
+Coin:
+  name: '&6KCoins'
+  allow_withdraw: true
+  allow_withdraw_only_leader: true
+  allow_withdraw_only_coleader: true
+  min_withdraw: 100
+  max_withdraw: 10000
+  one_price: 50000.0
+
+Title:
+  enabled: false
+  fadein: 1
+  stay: 3
+  fadeout: 1
+  messages:
+    deposit:
+      title: '&a&l+ &6%amount% &6KCoins'
+      sub: '&7by %player%'
+    withdraw:
+      title: '&4&l- &6%amount% &6KCoins'
+      sub: '&7by %player%'
+    set:
+      title: '&b&l= &6%amount% &6KCoins'
+      sub: '&7by %player%'
+
+Actionbar:
+  enabled: true
+  messages:
+    deposit: '&a&l+ &6%amount% &6KCoins &7- &7by %player%'
+    withdraw: '&4&l- &6%amount% &6KCoins &7- &7by %player%'
+    set: '&b&l= &6%amount% &6KCoins &7- &7by %player%'
+
+Chat:
+  enabled: true
+  messages:
+    deposit: '%tag% &eYour Clan received a deposit of &6%amount% &6KCoin&e, made by &a%player%'
+    withdraw: '%tag% &6%amount% &6KCoin &ehas been removed from your clan for &a%player%'
+    set: '%tag% &eSet to &6%amount% &6KCoin &eif clan for &a%player%'
+
+Tasks:
+  savebanks:
+    start: 600
+    next: 600
+  baltop:
+    start: 5
+    next: 15
+
+Help:
+  staff:
+  - ''
+  - '&4&lUKing admin commands:'
+  - ' &b/uking help &7- &eShow help menu.'
+  - ' &b/uking reload &7- &eReload the settings.'
+  - ' &b/uking addcoin <clan> <amount> &7- &eAdd coin to clan.'
+  - ' &b/uking removecoin <clan> <amount> &7- &eRemove coin of clan.'
+  - ' &b/uking setcoin <clan> <amount> &7- &eSet coins of clan.'
+  - ' &b/uking giveitem <player> <amount> &7- &eGive item coin to player.'
+  player:
+  - ''
+  - '&6&lKing commands:'
+  - ' &b/king help &7- &eShow help menu.'
+  - ' &b/king gui &7- &eOpen Gui menu.'
+  - ' &b/king balance &7- &eShow balance of player clan.'
+  - ' &b/king baltop [page] &7- &eShow baltop of KCoins.'
+  - ' &b/king buy <amount> &7- &eBuy &bKItens.'
+  - ' &b/king fly &7- &eToggle fly mode &4(only kings).'
+
+Messages:
+  no_permission: '%tag% &cVoce nao tem permissão &8(padrao)'
+  reload_config: '%tag% &eReloaded configurations.'
+  player_offline: '%tag% &eThe player is offline.'
+  greater_than_zero: '%tag% &eChoose a value greater than ZERO'
+  error_usage: '%tag% &cErro, use: &b'
+  out_value: '%tag% &cErro, defina um valor entre &b%min% &ce &b%max%'
+  clan_not_exists: '%tag% &cThis clan not exists.'
+  bank_deposit_other: '%tag% &eYou deposited &6%amount% &6KCoins &efor clan &b%clan%'
+  bank_received_deposit: '%tag% &eYour Clan received a deposit of &6%amount% &6KCoin&e, made by &a%player%'
+  bank_withdraw_other: '%tag% &eYou removed &6%amount% &6KCoin&e from clan &b%clan%'
+  bank_received_withdraw: '%tag% &6%amount% &6KCoin &ehas been removed from your clan for &a%player%'
+  bank_set_other: '%tag% &eYou set clan &b%clan% &ein &6%amount% &6KCoin'
+  bank_received_set: '%tag% &eSet to &6%amount% &6KCoin &eif clan for &a%player%'
+  command_by_player: '%tag% &cThis command must be issued by a player.'
+  dont_have_clan: '%tag% &cYou dont have a clan.'
+  clan_balance: '%tag% &eYour clan has &6%amount% &6KCoins'
+  withdraw_disabled: '%tag% &cWithdraw has been disabled for now.'
+  function_only_leader: '%tag% &cThis function can only be done by a Leader.'
+  function_only_coleader: '%tag% &cThis function can only be done by a CoLeader/Mod.'
+  value_unavailable: '%tag% &cYour clan does not have that amount available, it has only &6%amount% &6KCoins'
+  withdraw_of_bank: '%tag% &6%amount% &6KCoins &ewas removed from the bank. remains in account &6%rest% &6KCoins'
+  error_withdraw: '%tag% &cError removing from account, check balance'
+  allbanks_saved: '%tag% &eAll banks are saved.'
+  added_coinitem: '%tag% &eYou added &b%amount% &bKItens &eto &a%player%&e.'
+  received_coinitem: '%tag% &eYou received &b%amount% &bKItens'
+  dont_money: '%tag% &cYou need &a$%amount_price%&c for this, each item costs &a$%one_price%'
+  error_buy: '%tag% &cThere was an error while purchasing, check your balance.'
+  success_buy: '%tag% &eYou bought &b%amount% items'
+  success_buynoprice: '%tag% &eYou bought items'
+  debited: ' &7- &a$%amount_price% &7was debited from your account.'
+  top_format: ' &6(%num%) &a%clan% &7- &6%amount% KCoin(s) %youclan%'
+  top_empty: ' &cNada para mostrar nesta lista.'
+  top_empty_max: ' &7- There is nothing on this page, go back to the &b/king baltop 1'
+  top_header: '&d&lTop 10 KCoins &7(%month%/%year%):'
+  top_subheader: ' &8This list is reloaded every 10 minutes.'
+  error_top: ' &c- There was an error loading Baltop'
+  your_clan: ' &b&l<< YOUR CLAN'
+  top_next: ' &7- use /king baltop %page% &7to see the next page.'
+  fly_toggled_off: '%tag% &eYou turned &4&lOFF &ethe fly'
+  fly_toggled_on: '%tag% &eYou turned &a&lON &ethe fly'
+  dont_is_king: '%tag% &cYour clan is not the top KING'
+  fly_not_enabled: '%tag% &cFlying is not enabled'
+  invalid_gui: '%tag% &cInvalid Menu'
+  no_permission_gui: '%tag% &cYou do not have permission to open this page'
+  you_need_quant_money: '%tag% &cYou need &2$%amount% &cfor this.'
+  titleupdate:
+    you_need_quant_money: '&cNot have the money for this.'
+    buyed_item: '&eYou buyed the item for &2$%amount%'
+    no_free_item: '&cYou can not pick up items free.'
+    wait: '&cWait %time% secs...'
+    no_permission_gui: '&cYou can not open this.'

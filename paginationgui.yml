@@ -1,0 +1,104 @@
+Gui:
+  baltop:
+    inventory_name: 'Top KCoins  [%page%]'
+    inventory_rows: 5
+    sound-open: ''
+    max_items: 36
+    items:
+      current:
+        sound-click: ''
+        itemstack: 'BANNER'
+        skullowner: ''
+        texture: ''
+        banner: ''
+        data: 15
+        amount: 1
+        slot: 0
+        name: '&a%clan_tag% &7 - &bTop %number%'
+        lore:
+        - ''
+        - ' &eInformações do Clan'
+        - ' '
+        - ' &7KCoins: &b%kcoin%'
+        - ' '
+        - ' &7Tag: &b%clan_tag%'
+        - ' &7Desc: &b%clan_desc%'
+        - ' &7Lider: &b%clan_leader%'
+        - ' &7Data de Criação: &b%clan_creation%'
+        - ' &7Verificado: &b%clan_verified%'
+        - ' &7Kdr: &b%clan_kills%&8/&b%clan_deaths% &8(%clan_kdr%)'
+        - ' &7Membros: &b%clan_members%'
+        - ' &7Aliados: &b%clan_ally%'
+        - ' &7Rivais: &b%clan_rival%'
+        - ' &7Terrenos: &b%clan_chunks%'
+        enchants:
+        - ''
+        flags:
+        - ''
+        left-action: {}
+        right-action: {}
+      prev:
+        sound-click: ''
+        itemstack: 'INK_SACK'
+        skullowner: ''
+        texture: ''
+        banner: ''
+        data: 8
+        amount: 1
+        slot: 38
+        name: '&cPágina anterior'
+        lore:
+        - ''
+        - ' &eClique para voltar.'
+        enchants:
+        - ''
+        flags:
+        - ''
+        left-action:
+        - '[opengui_baltop] %prev%'
+        right-action:
+        - '[opengui_baltop] %prev%'
+      next:
+        sound-click: ''
+        itemstack: 'INK_SACK'
+        skullowner: ''
+        texture: ''
+        banner: ''
+        data: 8
+        amount: 1
+        slot: 42
+        name: '&cPróxima página'
+        lore:
+        - ''
+        - ' &eClique para avançar.'
+        enchants:
+        - ''
+        flags:
+        - ''
+        left-action:
+        - '[opengui_baltop] %next%'
+        right-action:
+        - '[opengui_baltop] %next%'
+      back:
+        sound-click: ''
+        itemstack: 'ARROW'
+        skullowner: ''
+        texture: ''
+        banner: ''
+        data: 0
+        amount: 1
+        slot: 40
+        name: '&cVoltar'
+        lore:
+        - ''
+        - ' &eClique para voltar.'
+        enchants:
+        - ''
+        flags:
+        - ''
+        left-action:
+        - '[CLOSEGUI]'
+        - '[OPENGUI] index'
+        right-action:
+        - '[CLOSEGUI]'
+        - '[OPENGUI] index'
