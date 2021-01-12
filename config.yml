@@ -31,6 +31,10 @@ King:
       message: '%tag% &7%new_tag% &eIs the new King!'
   advantages:
     fly_enabled: true
+  disabled_advantages_regions:
+  - 'teste'
+  disabled_advantages_world:
+  - 'teste'
 
 Coin:
   name: '&6KCoins'
