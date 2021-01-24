@@ -58,7 +58,7 @@ Cosmetic:
     lore: {}
 Gui:
   confirm1:
-    inventoryName: '&aCONFIRME &8ou &4CANCELE'
+    inventoryName: '&aCONFIRM &8ou &4CANCEL'
     inventorySize: 27
     openSound: ''
     items:
@@ -68,7 +68,7 @@ Gui:
         amount: 1
         slot: 12
         slot_complete: '11;10'
-        name: ' &aCONFIRMAR'
+        name: ' &aCONFIRM'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -81,33 +81,7 @@ Gui:
         - '[CONSOLE] uking giveitem %player% 1'
         lore:
         - ' '
-        - ' &eClique para confirmar!'
-        - ' '
-        enchants: {}
-        flags:
-        - 'HIDE_ENCHANTS'
-      14:
-        material: 'STAINED_CLAY'
-        data: 14
-        amount: 1
-        slot: 14
-        slot_complete: '15;16'
-        name: ' &4CANCELAR'
-        click_cooldown: 0
-        texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
-        sound: ''
-        permission: ''
-        permission_message: ''
-        value: 0
-        left_commands:
-        - '[CLOSEGUI]'
-        - '[OPENGUI] buy'
-        right_commands:
-        - '[CLOSEGUI]'
-        - '[OPENGUI] buy'
-        lore:
-        - ' '
-        - ' &eClique para cancelar!'
+        - ' &eClick to confirm!'
         - ' '
         enchants: {}
         flags:
@@ -129,8 +103,8 @@ Gui:
         right_commands: {}
         lore:
         - ''
-        - ' &7Valor: &a$50.000'
-        - ' &7Quantidade &6100 KCoins'
+        - ' &7Value: &a$50.000'
+        - ' &7Amount: &6100 KCoins'
         - ' '
         enchants: {}
         flags:
@@ -141,7 +115,7 @@ Gui:
         amount: 1
         slot: 14
         slot_complete: '15;16'
-        name: ' &4CANCELAR'
+        name: ' &4CANCEL'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -156,13 +130,13 @@ Gui:
         - '[OPENGUI] buy'
         lore:
         - ' '
-        - ' &eClique para cancelar!'
+        - ' &eClick to cancel!'
         - ' '
         enchants: {}
         flags:
         - 'HIDE_ENCHANTS'
   confirm16:
-    inventoryName: '&aCONFIRME &8ou &4CANCELE'
+    inventoryName: '&aCONFIRM &8ou &4CANCEL'
     inventorySize: 27
     openSound: ''
     items:
@@ -172,20 +146,20 @@ Gui:
         amount: 1
         slot: 12
         slot_complete: '11;10'
-        name: ' &aCONFIRMAR'
+        name: ' &aCONFIRM'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
         permission: ''
         permission_message: ''
-        value: 50000.0
+        value: 800000.0
         left_commands:
-        - '[CONSOLE] uking giveitem %player% 1'
+        - '[CONSOLE] uking giveitem %player% 16'
         right_commands:
-        - '[CONSOLE] uking giveitem %player% 1'
+        - '[CONSOLE] uking giveitem %player% 16'
         lore:
         - ' '
-        - ' &eClique para confirmar!'
+        - ' &eClick to confirm!'
         - ' '
         enchants: {}
         flags:
@@ -196,7 +170,7 @@ Gui:
         amount: 16
         slot: 13
         slot_complete: ''
-        name: ' &a100 KCoins'
+        name: ' &a1600 KCoins'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -207,8 +181,8 @@ Gui:
         right_commands: {}
         lore:
         - ''
-        - ' &7Valor: &a$50.000'
-        - ' &7Quantidade &6100 KCoins'
+        - ' &7Value: &a$800.000'
+        - ' &7Amount: &61600 KCoins'
         - ' '
         enchants: {}
         flags:
@@ -219,7 +193,7 @@ Gui:
         amount: 1
         slot: 14
         slot_complete: '15;16'
-        name: ' &4CANCELAR'
+        name: ' &4CANCEL'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -234,13 +208,13 @@ Gui:
         - '[OPENGUI] buy'
         lore:
         - ' '
-        - ' &eClique para cancelar!'
+        - ' &eClick to cancel!'
         - ' '
         enchants: {}
         flags:
         - 'HIDE_ENCHANTS'
   confirm32:
-    inventoryName: '&aCONFIRME &8ou &4CANCELE'
+    inventoryName: '&aCONFIRM &8ou &4CANCEL'
     inventorySize: 27
     openSound: ''
     items:
@@ -250,20 +224,20 @@ Gui:
         amount: 1
         slot: 12
         slot_complete: '11;10'
-        name: ' &aCONFIRMAR'
+        name: ' &aCONFIRM'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
         permission: ''
         permission_message: ''
-        value: 50000.0
+        value: 1600000.0
         left_commands:
-        - '[CONSOLE] uking giveitem %player% 1'
+        - '[CONSOLE] uking giveitem %player% 32'
         right_commands:
-        - '[CONSOLE] uking giveitem %player% 1'
+        - '[CONSOLE] uking giveitem %player% 32'
         lore:
         - ' '
-        - ' &eClique para confirmar!'
+        - ' &eClick to confirm!'
         - ' '
         enchants: {}
         flags:
@@ -274,7 +248,7 @@ Gui:
         amount: 32
         slot: 13
         slot_complete: ''
-        name: ' &a100 KCoins'
+        name: ' &a3200 KCoins'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -285,8 +259,8 @@ Gui:
         right_commands: {}
         lore:
         - ''
-        - ' &7Valor: &a$50.000'
-        - ' &7Quantidade &6100 KCoins'
+        - ' &7Value: &a$1.600.000'
+        - ' &7Amount: &63200 KCoins'
         - ' '
         enchants: {}
         flags:
@@ -297,7 +271,7 @@ Gui:
         amount: 1
         slot: 14
         slot_complete: '15;16'
-        name: ' &4CANCELAR'
+        name: ' &4CANCEL'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -312,13 +286,13 @@ Gui:
         - '[OPENGUI] buy'
         lore:
         - ' '
-        - ' &eClique para cancelar!'
+        - ' &eClick to cancel!'
         - ' '
         enchants: {}
         flags:
         - 'HIDE_ENCHANTS'
   confirm64:
-    inventoryName: '&aCONFIRME &8ou &4CANCELE'
+    inventoryName: '&aCONFIRM &8ou &4CANCEL'
     inventorySize: 27
     openSound: ''
     items:
@@ -328,20 +302,20 @@ Gui:
         amount: 1
         slot: 12
         slot_complete: '11;10'
-        name: ' &aCONFIRMAR'
+        name: ' &aCONFIRM'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
         permission: ''
         permission_message: ''
-        value: 50000.0
+        value: 3200000.0
         left_commands:
-        - '[CONSOLE] uking giveitem %player% 1'
+        - '[CONSOLE] uking giveitem %player% 64'
         right_commands:
-        - '[CONSOLE] uking giveitem %player% 1'
+        - '[CONSOLE] uking giveitem %player% 64'
         lore:
         - ' '
-        - ' &eClique para confirmar!'
+        - ' &eClick to confirm!'
         - ' '
         enchants: {}
         flags:
@@ -352,7 +326,7 @@ Gui:
         amount: 64
         slot: 13
         slot_complete: ''
-        name: ' &a100 KCoins'
+        name: ' &a6400 KCoins'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -363,8 +337,8 @@ Gui:
         right_commands: {}
         lore:
         - ''
-        - ' &7Valor: &a$50.000'
-        - ' &7Quantidade &6100 KCoins'
+        - ' &7Value: &a$3.200.000'
+        - ' &7Amount: &66400 KCoins'
         - ' '
         enchants: {}
         flags:
@@ -375,7 +349,7 @@ Gui:
         amount: 1
         slot: 14
         slot_complete: '15;16'
-        name: ' &4CANCELAR'
+        name: ' &4CANCEL'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -390,13 +364,13 @@ Gui:
         - '[OPENGUI] buy'
         lore:
         - ' '
-        - ' &eClique para cancelar!'
+        - ' &eClick to cancel!'
         - ' '
         enchants: {}
         flags:
         - 'HIDE_ENCHANTS'
   buy:
-    inventoryName: '&8Comprar KCoins'
+    inventoryName: '&8Buy KCoins'
     inventorySize: 36
     openSound: ''
     items:
@@ -421,10 +395,10 @@ Gui:
         - '[OPENGUI] confirm1'
         lore:
         - ''
-        - ' &7Valor: &a$50.000'
-        - ' &7Quantidade &6100 KCoins'
+        - ' &7Value: &a$50.000'
+        - ' &7Amount: &6100 KCoins'
         - ' '
-        - ' &eClique para comprar!'
+        - ' &eClick to buy!'
         - ' '
         enchants: {}
         flags:
@@ -435,7 +409,7 @@ Gui:
         amount: 16
         slot: 12
         slot_complete: ''
-        name: ' &a1000 KCoins'
+        name: ' &a1600 KCoins'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -450,10 +424,10 @@ Gui:
         - '[OPENGUI] confirm16'
         lore:
         - ''
-        - ' &7Valor: &a$50.000'
-        - ' &7Quantidade &6100 KCoins'
+        - ' &7Value: &a$800.000'
+        - ' &7Amount: &61600 KCoins'
         - ' '
-        - ' &eClique para comprar!'
+        - ' &eClick to buy!'
         - ' '
         enchants: {}
         flags:
@@ -464,7 +438,7 @@ Gui:
         amount: 32
         slot: 14
         slot_complete: ''
-        name: ' &a1000 KCoins'
+        name: ' &a3200 KCoins'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -479,10 +453,10 @@ Gui:
         - '[OPENGUI] confirm32'
         lore:
         - ''
-        - ' &7Valor: &a$50.000'
-        - ' &7Quantidade &6100 KCoins'
+        - ' &7Value: &a$1.600.000'
+        - ' &7Amount: &63200 KCoins'
         - ' '
-        - ' &eClique para comprar!'
+        - ' &eClick to buy!'
         - ' '
         enchants: {}
         flags:
@@ -493,7 +467,7 @@ Gui:
         amount: 64
         slot: 16
         slot_complete: ''
-        name: ' &a1000 KCoins'
+        name: ' &a6400 KCoins'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -508,10 +482,10 @@ Gui:
         - '[OPENGUI] confirm64'
         lore:
         - ''
-        - ' &7Valor: &a$50.000'
-        - ' &7Quantidade &6100 KCoins'
+        - ' &7Value: &a$3.200.000'
+        - ' &7Amount: &66400 KCoins'
         - ' '
-        - ' &eClique para comprar!'
+        - ' &eClick to buy!'
         - ' '
         enchants: {}
         flags:
@@ -522,7 +496,7 @@ Gui:
         amount: 1
         slot: 31
         slot_complete: ''
-        name: ' &cVoltar'
+        name: ' &cCome back'
         click_cooldown: 0
         texture: ''
         sound: ''
@@ -535,7 +509,7 @@ Gui:
         - '[OPENGUI] index'
         lore:
         - ''
-        - ' &eClique para voltar.'
+        - ' &eClick to go back.'
         enchants: {}
         flags:
         - 'HIDE_ENCHANTS'
@@ -558,7 +532,7 @@ Gui:
         amount: 1
         slot: 40
         slot_complete: ''
-        name: ' &cVoltar'
+        name: ' &cCome back'
         click_cooldown: 0
         texture: ''
         sound: ''
@@ -571,12 +545,12 @@ Gui:
         - '[OPENGUI] index'
         lore:
         - ''
-        - ' &eClique para voltar.'
+        - ' &eClick to go back.'
         enchants: {}
         flags:
         - 'HIDE_ENCHANTS'
   advantage:
-    inventoryName: '&8Vantagens'
+    inventoryName: '&8Advantages'
     inventorySize: 36
     openSound: ''
     items:
@@ -586,7 +560,7 @@ Gui:
         amount: 1
         slot: 10
         slot_complete: ''
-        name: ' &aAtivar FLY &6(APENAS PARA KINGS)'
+        name: ' &aEnable FLY &6(ONLY KINGS)'
         click_cooldown: 0
         texture: ''
         sound: ''
@@ -601,9 +575,9 @@ Gui:
         - '[Player] king fly'
         lore:
         - ''
-        - ' &eQuando um clan se torna KING ele ganha'
-        - '&ealgumas vantagens, uma delas é voar.'
-        - ' &eClique para &aativar&e/&4desativar'
+        - ' &eWhen a clan becomes KING he wins'
+        - '&esome advantages, one of them is flying.'
+        - ' &eClick to &aenable&e/&4disable'
         enchants: {}
         flags:
         - 'HIDE_ENCHANTS'
@@ -613,7 +587,7 @@ Gui:
         amount: 1
         slot: 31
         slot_complete: ''
-        name: ' &cVoltar'
+        name: ' &cCome back'
         click_cooldown: 0
         texture: ''
         sound: ''
@@ -626,7 +600,7 @@ Gui:
         - '[OPENGUI] index'
         lore:
         - ''
-        - ' &eClique para voltar.'
+        - ' &eClick to go back.'
         enchants: {}
         flags:
         - 'HIDE_ENCHANTS'
@@ -643,7 +617,7 @@ Gui:
         slot_complete: ''
         name: ' &aClan %player_clan%'
         click_cooldown: 3
-        texture: 'UlrichBR'
+        texture: ''
         sound: ''
         permission: ''
         permission_message: ''
@@ -652,7 +626,7 @@ Gui:
         right_commands: {}
         lore:
         - ''
-        - ' &eInformações:'
+        - ' &eInformation:'
         - ' '
         - ' &7KCoins: &6%kcoins%'
         - ' '
@@ -665,7 +639,7 @@ Gui:
         amount: 1
         slot: 5
         slot_complete: ''
-        name: ' &cVoltar para o menu de CLANS'
+        name: ' &cCome back to Clan menu.'
         click_cooldown: 3
         texture: 'UlrichBR'
         sound: ''
@@ -680,7 +654,7 @@ Gui:
         - '[PLAYER] clan'
         lore:
         - ''
-        - ' &eInformações:'
+        - ' &eInformation:'
         - ' '
         - ' &7KCoins: &6%kcoins%'
         - ' '
@@ -693,7 +667,7 @@ Gui:
         amount: 1
         slot: 19
         slot_complete: ''
-        name: ' &aVANTAGENS'
+        name: ' &aADVANTAGES'
         click_cooldown: 0
         texture: ''
         sound: ''
@@ -708,7 +682,7 @@ Gui:
         - '[OPENGUI] advantage'
         lore:
         - ''
-        - ' &eClique para abrir a loja de KCoins'
+        - ' &eClick to see the advantages'
         - ' '
         enchants: {}
         flags:
@@ -719,7 +693,7 @@ Gui:
         amount: 1
         slot: 21
         slot_complete: ''
-        name: ' &aCOMPRAR KCOINS'
+        name: ' &aBuy KCOINS'
         click_cooldown: 0
         texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBlZTY4NjJmNDE4ZDY2YTViZGIwMzk2YTQyZDdjZTNlNGIyZTgxZGMzMDA2ZWIzNWI2NDRjOTNkZjQ4ZGZiMSJ9fX0='
         sound: ''
@@ -734,7 +708,7 @@ Gui:
         - '[OPENGUI] buy'
         lore:
         - ''
-        - ' &eClique para abrir a loja de KCoins'
+        - ' &eClick to open the KCoins store'
         - ' '
         enchants: {}
         flags:
@@ -760,7 +734,7 @@ Gui:
         - '[opengui_baltop] 1'
         lore:
         - ''
-        - ' &eClique para ver o baltop'
+        - ' &eClick to see the baltop'
         - ' '
         enchants: {}
         flags:
@@ -771,7 +745,7 @@ Gui:
         amount: 1
         slot: 25
         slot_complete: ''
-        name: ' &eAjuda por comando'
+        name: ' &eCommand help'
         click_cooldown: 0
         texture: ''
         sound: ''
@@ -786,8 +760,8 @@ Gui:
         - '[Player] king help'
         lore:
         - ''
-        - ' &eClique para fechar este menu e'
-        - '&eabrir o menu de comandos.'
+        - ' &eClick to close this menu'
+        - '&eand open the command menu.'
         enchants: {}
         flags:
         - 'HIDE_ENCHANTS'
