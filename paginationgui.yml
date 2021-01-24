@@ -17,20 +17,16 @@ Gui:
         name: '&a%clan_tag% &7 - &bTop %number%'
         lore:
         - ''
-        - ' &eInformações do Clan'
+        - ' &eInformation of Clan'
         - ' '
         - ' &7KCoins: &b%kcoin%'
         - ' '
         - ' &7Tag: &b%clan_tag%'
-        - ' &7Desc: &b%clan_desc%'
-        - ' &7Lider: &b%clan_leader%'
-        - ' &7Data de Criação: &b%clan_creation%'
-        - ' &7Verificado: &b%clan_verified%'
+        - ' &7Description: &b%clan_desc%'
+        - ' &7Leader: &b%clan_leader%'
+        - ' &7Creation date: &b%clan_creation%'
+        - ' &7Verified: &b%clan_verified%'
         - ' &7Kdr: &b%clan_kills%&8/&b%clan_deaths% &8(%clan_kdr%)'
-        - ' &7Membros: &b%clan_members%'
-        - ' &7Aliados: &b%clan_ally%'
-        - ' &7Rivais: &b%clan_rival%'
-        - ' &7Terrenos: &b%clan_chunks%'
         enchants:
         - ''
         flags:
@@ -46,10 +42,10 @@ Gui:
         data: 8
         amount: 1
         slot: 38
-        name: '&cPágina anterior'
+        name: '&cPrevious page'
         lore:
         - ''
-        - ' &eClique para voltar.'
+        - ' &eClick to go back.'
         enchants:
         - ''
         flags:
@@ -67,10 +63,10 @@ Gui:
         data: 8
         amount: 1
         slot: 42
-        name: '&cPróxima página'
+        name: '&cNext page.'
         lore:
         - ''
-        - ' &eClique para avançar.'
+        - ' &eClick to proceed.'
         enchants:
         - ''
         flags:
@@ -88,10 +84,10 @@ Gui:
         data: 0
         amount: 1
         slot: 40
-        name: '&cVoltar'
+        name: '&cCome back'
         lore:
         - ''
-        - ' &eClique para voltar.'
+        - ' &eClick to come back.'
         enchants:
         - ''
         flags:
