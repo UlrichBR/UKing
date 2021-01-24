@@ -1,5 +1,6 @@
 Config:
   tag: '&6&lU&e&lKing &8>>&e'
+  date-format: 'dd/MM/yyyy HH:mm'
   debugmode: false
   max_top_list: 10
   open_gui_empty_command: true
@@ -35,7 +36,6 @@ King:
   - 'teste'
   disabled_advantages_world:
   - 'teste'
-
 Coin:
   name: '&6KCoins'
   allow_withdraw: true
@@ -105,6 +105,7 @@ Help:
 
 Messages:
   no_permission: '%tag% &cVoce nao tem permissão &8(padrao)'
+  no-permission: '%tag% &cVoce nao tem permissão &8(padrao)'
   reload_config: '%tag% &eReloaded configurations.'
   player_offline: '%tag% &eThe player is offline.'
   greater_than_zero: '%tag% &eChoose a value greater than ZERO'
